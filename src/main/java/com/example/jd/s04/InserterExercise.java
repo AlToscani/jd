@@ -14,7 +14,6 @@ import com.example.jd.Config;
 public class InserterExercise {
     private static final Logger log = LogManager.getLogger(InserterExercise.class);
 
-    // TODO: SQL code for insert
     private static final String INSERT_SERVICE_BY_NAME_AND_LOCATION = """
     		INSERT INTO service(name, location_id) 
     		values ('%s', %s)
